@@ -1,0 +1,259 @@
+plan([ on( b4, p1), on( b1, b4), on( b3, b1), on( b2, p3), clear(b3), clear(b2), clear(p2), clear(p4) ], [on(b4, b1) ], Plan, FinalState).
+   <0> Goals CHECK : 
+   <0> Choosed goal : on(b4,b1)
+   <0> Action: : move(b4,_G4077/on(b4,_G4077),b1)
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : [on(b4,_G4077)]
+      <1> Goals CHECK : 
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : []
+      <1> Goals CHECK : 
+   <0> Goals CHECK : 
+   <0> Choosed goal : on(b4,b1)
+   <0> Action: : move(b4,_G4077/on(b4,_G4077),b1)
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : [on(b4,_G4077)]
+      <1> Goals CHECK : 
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : []
+      <1> Goals CHECK : 
+   <0> Choosed goal : on(b4,b1)
+   <0> Action: : move(b4,_G4077/on(b4,_G4077),b1)
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : [on(b4,_G4077)]
+      <1> Goals CHECK : 
+      <1> Choosed goal : clear(b4)
+      <1> Action: : move(_G4103/on(_G4103,b4),b4,_G4140)
+      <1> CondGoals: : [clear(_G4103/on(_G4103,b4))]
+      <1> Conditions: : [clear(_G4140),diff(_G4103/on(_G4103,b4),_G4140)]
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4103/on(_G4103,b4)),clear(_G4140)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+      <1> Choosed goal : clear(b1)
+      <1> Action: : move(_G4106/on(_G4106,b1),b1,_G4143)
+      <1> CondGoals: : [clear(_G4106/on(_G4106,b1))]
+      <1> Conditions: : [clear(_G4143),diff(_G4106/on(_G4106,b1),_G4143)]
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1))]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+      <1> InAction: : move(b3,b1,p2)
+         <2> Goals CHECK : 
+      <1> InAction: : move(b3,b1,p4)
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4106/on(_G4106,b1)),clear(_G4143)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(b3)]
+      <1> InAction: : move(b3,b1,b3)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(b2)]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(p2)]
+      <1> InAction: : move(b3,b1,p2)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(p4)]
+      <1> InAction: : move(b3,b1,p4)
+         <2> Goals CHECK : 
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : []
+      <1> Goals CHECK : 
+      <1> Choosed goal : clear(b4)
+      <1> Action: : move(_G4097/on(_G4097,b4),b4,_G4134)
+      <1> CondGoals: : [clear(_G4097/on(_G4097,b4))]
+      <1> Conditions: : [clear(_G4134),diff(_G4097/on(_G4097,b4),_G4134)]
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4097/on(_G4097,b4)),clear(_G4134)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+      <1> Choosed goal : clear(b1)
+      <1> Action: : move(_G4100/on(_G4100,b1),b1,_G4137)
+      <1> CondGoals: : [clear(_G4100/on(_G4100,b1))]
+      <1> Conditions: : [clear(_G4137),diff(_G4100/on(_G4100,b1),_G4137)]
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1))]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+      <1> InAction: : move(b3,b1,p2)
+         <2> Goals CHECK : 
+      <1> InAction: : move(b3,b1,p4)
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4100/on(_G4100,b1)),clear(_G4137)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(b3)]
+      <1> InAction: : move(b3,b1,b3)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(b2)]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(p2)]
+      <1> InAction: : move(b3,b1,p2)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(p4)]
+      <1> InAction: : move(b3,b1,p4)
+         <2> Goals CHECK : 
+   <0> Goals CHECK : 
+   <0> Choosed goal : on(b4,b1)
+   <0> Action: : move(b4,_G4077/on(b4,_G4077),b1)
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : [on(b4,_G4077)]
+      <1> Goals CHECK : 
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : []
+      <1> Goals CHECK : 
+   <0> Choosed goal : on(b4,b1)
+   <0> Action: : move(b4,_G4077/on(b4,_G4077),b1)
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : [on(b4,_G4077)]
+      <1> Goals CHECK : 
+      <1> Choosed goal : clear(b4)
+      <1> Action: : move(_G4103/on(_G4103,b4),b4,_G4140)
+      <1> CondGoals: : [clear(_G4103/on(_G4103,b4))]
+      <1> Conditions: : [clear(_G4140),diff(_G4103/on(_G4103,b4),_G4140)]
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4103/on(_G4103,b4)),clear(_G4140)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+      <1> Choosed goal : clear(b1)
+      <1> Action: : move(_G4106/on(_G4106,b1),b1,_G4143)
+      <1> CondGoals: : [clear(_G4106/on(_G4106,b1))]
+      <1> Conditions: : [clear(_G4143),diff(_G4106/on(_G4106,b1),_G4143)]
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1))]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+      <1> InAction: : move(b3,b1,p2)
+         <2> Goals CHECK : 
+      <1> InAction: : move(b3,b1,p4)
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4106/on(_G4106,b1)),clear(_G4143)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(b3)]
+      <1> InAction: : move(b3,b1,b3)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(b2)]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(p2)]
+      <1> InAction: : move(b3,b1,p2)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(p4)]
+      <1> InAction: : move(b3,b1,p4)
+         <2> Goals CHECK : 
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : []
+      <1> Goals CHECK : 
+      <1> Choosed goal : clear(b4)
+      <1> Action: : move(_G4097/on(_G4097,b4),b4,_G4134)
+      <1> CondGoals: : [clear(_G4097/on(_G4097,b4))]
+      <1> Conditions: : [clear(_G4134),diff(_G4097/on(_G4097,b4),_G4134)]
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4097/on(_G4097,b4)),clear(_G4134)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+      <1> Choosed goal : clear(b1)
+      <1> Action: : move(_G4100/on(_G4100,b1),b1,_G4137)
+      <1> CondGoals: : [clear(_G4100/on(_G4100,b1))]
+      <1> Conditions: : [clear(_G4137),diff(_G4100/on(_G4100,b1),_G4137)]
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1))]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+      <1> InAction: : move(b3,b1,p2)
+         <2> Goals CHECK : 
+      <1> InAction: : move(b3,b1,p4)
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4100/on(_G4100,b1)),clear(_G4137)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(b3)]
+      <1> InAction: : move(b3,b1,b3)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(b2)]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(p2)]
+      <1> InAction: : move(b3,b1,p2)
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1)),clear(p4)]
+      <1> InAction: : move(b3,b1,p4)
+         <2> Goals CHECK : 
+   <0> Choosed goal : on(b4,b1)
+   <0> Action: : move(b4,_G4077/on(b4,_G4077),b1)
+   <0> CondGoals: : [clear(b4),clear(b1)]
+   <0> Conditions: : [on(b4,_G4077)]
+      <1> Goals CHECK : 
+      <1> Choosed goal : clear(b4)
+      <1> Action: : move(_G4103/on(_G4103,b4),b4,_G4140)
+      <1> CondGoals: : [clear(_G4103/on(_G4103,b4))]
+      <1> Conditions: : [clear(_G4140),diff(_G4103/on(_G4103,b4),_G4140)]
+         <2> Goals CHECK : 
+      <1> CondGoals: : [clear(_G4103/on(_G4103,b4)),clear(_G4140)]
+      <1> Conditions: : []
+         <2> Goals CHECK : 
+      <1> Choosed goal : clear(b1)
+      <1> Action: : move(_G4106/on(_G4106,b1),b1,_G4143)
+      <1> CondGoals: : [clear(_G4106/on(_G4106,b1))]
+      <1> Conditions: : [clear(_G4143),diff(_G4106/on(_G4106,b1),_G4143)]
+         <2> Goals CHECK : 
+         <2> Some goals achieved : [clear(b3/on(b3,b1))]
+      <1> InAction: : move(b3,b1,b2)
+         <2> Goals CHECK : 
+         <2> Choosed goal : clear(b4)
+         <2> Action: : move(_G4290/on(_G4290,b4),b4,_G4327)
+         <2> CondGoals: : [clear(_G4290/on(_G4290,b4))]
+         <2> Conditions: : [clear(_G4327),diff(_G4290/on(_G4290,b4),_G4327)]
+            <3> Goals CHECK : 
+            <3> Some goals achieved : [clear(b1/on(b1,b4))]
+         <2> InAction: : move(b1,b4,b3)
+            <3> Goals CHECK : 
+            <3> Some goals achieved : []
+   <0> InAction: : move(b4,p1,b1)
+      <1> Goals CHECK : 
+      <1> Some goals achieved : []
+Plan = [move(b3, b1, b2), move(b1, b4, b3), move(b4, p1, b1)],
+FinalState = [on(b4, b1), clear(p1), on(b1, b3), clear(b4), on(b3, b2), on(b2, p3), clear(p2), clear(p4)] 
+
+;
+         <2> InAction: : move(b1,b4,p2)
+            <3> Goals CHECK : 
+            <3> Some goals achieved : []
+   <0> InAction: : move(b4,p1,b1)
+      <1> Goals CHECK : 
+      <1> Some goals achieved : []
+Plan = [move(b3, b1, b2), move(b1, b4, p2), move(b4, p1, b1)],
+FinalState = [on(b4, b1), clear(p1), on(b1, p2), clear(b4), on(b3, b2), on(b2, p3), clear(b3), clear(p4)] 
+
+;
+         <2> InAction: : move(b1,b4,p4)
+            <3> Goals CHECK : 
+            <3> Some goals achieved : []
+   <0> InAction: : move(b4,p1,b1)
+      <1> Goals CHECK : 
+      <1> Some goals achieved : []
+Plan = [move(b3, b1, b2), move(b1, b4, p4), move(b4, p1, b1)],
+FinalState = [on(b4, b1), clear(p1), on(b1, p4), clear(b4), on(b3, b2), on(b2, p3), clear(b3), clear(p2)] 
+
+;
+         <2> CondGoals: : [clear(_G4290/on(_G4290,b4)),clear(_G4327)]
+         <2> Conditions: : []
+            <3> Goals CHECK : 
+            <3> Some goals achieved : [clear(b1/on(b1,b4)),clear(b1)]
+         <2> InAction: : move(b1,b4,b1)
+            <3> Goals CHECK : 
+            <3> Some goals achieved : []
+   <0> InAction: : move(b4,p1,b1)
+            <3> Some goals achieved : [clear(b1/on(b1,b4)),clear(b3)]
+         <2> InAction: : move(b1,b4,b3)
+            <3> Goals CHECK : 
+            <3> Some goals achieved : []
+   <0> InAction: : move(b4,p1,b1)
+      <1> Goals CHECK : 
+      <1> Some goals achieved : []
+Plan = [move(b3, b1, b2), move(b1, b4, b3), move(b4, p1, b1)],
+FinalState = [on(b4, b1), clear(p1), on(b1, b3), clear(b4), on(b3, b2), on(b2, p3), clear(p2), clear(p4)] .
+
